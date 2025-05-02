@@ -1,119 +1,118 @@
-rules:
 # MIUI 安装检查
-DOMAIN,api.installer.xiaomi.com
+DOMAIN-SUFFIX,api.installer.xiaomi.com
 
 # OneTrack & Analytics & Ad
-DOMAIN,tracking.miui.com
-DOMAIN,data.mistat.xiaomi.com
-DOMAIN,diagnosis.ad.xiaomi.com
-DOMAIN,log.ad.xiaomi.com
-DOMAIN,m.track.ad.xiaomi.com
-DOMAIN,sdkconfig.ad.xiaomi.com
-DOMAIN,api.ad.xiaomi.com
+DOMAIN-SUFFIX,tracking.miui.com
+DOMAIN-SUFFIX,data.mistat.xiaomi.com
+DOMAIN-SUFFIX,diagnosis.ad.xiaomi.com
+DOMAIN-SUFFIX,log.ad.xiaomi.com
+DOMAIN-SUFFIX,m.track.ad.xiaomi.com
+DOMAIN-SUFFIX,sdkconfig.ad.xiaomi.com
+DOMAIN-SUFFIX,api.ad.xiaomi.com
 
 # 小爱同学
-DOMAIN,tracker.ai.xiaomi.com
-DOMAIN,grayconfig.ai.xiaomi.com
+DOMAIN-SUFFIX,tracker.ai.xiaomi.com
+DOMAIN-SUFFIX,grayconfig.ai.xiaomi.com
 
 # 小米安全引擎
-DOMAIN,mazu.sec.miui.com
+DOMAIN-SUFFIX,mazu.sec.miui.com
 
 # AVL相关
-DOMAIN,miui-fxcse.avlyun.com
-DOMAIN,sdkconf.avlyun.com
-DOMAIN,miav-cse.avlyun.com
-DOMAIN,update.avlyun.sec.miui.com
-DOMAIN,ixav-cse.avlyun.com
-DOMAIN,logupdate.avlyun.sec.miui.com
+DOMAIN-SUFFIX,miui-fxcse.avlyun.com
+DOMAIN-SUFFIX,sdkconf.avlyun.com
+DOMAIN-SUFFIX,miav-cse.avlyun.com
+DOMAIN-SUFFIX,update.avlyun.sec.miui.com
+DOMAIN-SUFFIX,ixav-cse.avlyun.com
+DOMAIN-SUFFIX,logupdate.avlyun.sec.miui.com
 
 # 系统安全与更新
-DOMAIN,api.sec.miui.com
-DOMAIN,auth.be.sec.miui.com
-DOMAIN,flash.sec.miui.com
+DOMAIN-SUFFIX,api.sec.miui.com
+DOMAIN-SUFFIX,auth.be.sec.miui.com
+DOMAIN-SUFFIX,flash.sec.miui.com
 
 # 快应用
-DOMAIN,api.hybrid.xiaomi.com
+DOMAIN-SUFFIX,api.hybrid.xiaomi.com
 
 # 浏览器相关
-DOMAIN,o2o.api.xiaomi.com
-DOMAIN,api.browser.miui.com
-DOMAIN,ssl-cdn.static.browser.mi-img.com
-DOMAIN,security.browser.miui.com
-DOMAIN,hot.browser.miui.com
-DOMAIN,r.browser.miui.com
-DOMAIN,hd.browser.miui.com
-DOMAIN,c3-cache.browser.miui.com
-DOMAIN,api-ipv4.browser.miui.com
-DOMAIN,qsb.browser.miui.com
-DOMAIN,sentry.d.xiaomi.net
-DOMAIN,global-search.browser.miui.com
-DOMAIN,global.search.xiaomi.net
+DOMAIN-SUFFIX,o2o.api.xiaomi.com
+DOMAIN-SUFFIX,api.browser.miui.com
+DOMAIN-SUFFIX,ssl-cdn.static.browser.mi-img.com
+DOMAIN-SUFFIX,security.browser.miui.com
+DOMAIN-SUFFIX,hot.browser.miui.com
+DOMAIN-SUFFIX,r.browser.miui.com
+DOMAIN-SUFFIX,hd.browser.miui.com
+DOMAIN-SUFFIX,c3-cache.browser.miui.com
+DOMAIN-SUFFIX,api-ipv4.browser.miui.com
+DOMAIN-SUFFIX,qsb.browser.miui.com
+DOMAIN-SUFFIX,sentry.d.xiaomi.net
+DOMAIN-SUFFIX,global-search.browser.miui.com
+DOMAIN-SUFFIX,global.search.xiaomi.net
 
 # 系统应用检查更新
-DOMAIN,api.developer.xiaomi.com
-DOMAIN,update.miui.com
+DOMAIN-SUFFIX,api.developer.xiaomi.com
+DOMAIN-SUFFIX,update.miui.com
 
 # HTML查看器
-DOMAIN,port.sec.miui.com
+DOMAIN-SUFFIX,port.sec.miui.com
 
 # 云控相关
-DOMAIN,qsb.browser.miui.srv
-DOMAIN,rom.pt.miui.srv
-DOMAIN,ccc.sys.miui.com
-DOMAIN,jupiter.sys.miui.com
-DOMAIN,metok.sys.miui.com
+DOMAIN-SUFFIX,qsb.browser.miui.srv
+DOMAIN-SUFFIX,rom.pt.miui.srv
+DOMAIN-SUFFIX,ccc.sys.miui.com
+DOMAIN-SUFFIX,jupiter.sys.miui.com
+DOMAIN-SUFFIX,metok.sys.miui.com
 
 # 其他系统应用的垃圾sdk
-DOMAIN,tmfsdk.m.qq.com
-DOMAIN,tmfsdk4.m.qq.com
-DOMAIN,tbm.snssdk.com
-DOMAIN,othstr.beacon.qq.com
-DOMAIN,tools.3g.qq.com
-DOMAIN,tmfsdktcp.m.qq.com
-DOMAIN,h.trace.qq.com
-DOMAIN,hub5pn.wap.sandai.net
-DOMAIN,tpstelemetry.tencent.com
-DOMAIN,pssn.alicdn.com
-DOMAIN,tmfsdktcpv4.m.qq.com
-DOMAIN,tmeadcomm.y.qq.com
-DOMAIN,tangram.e.qq.com
-DOMAIN,us.l.qq.com
-DOMAIN,tdid.m.qq.com
-DOMAIN,api.yky.qq.com
-DOMAIN,sdk.e.qq.com
-DOMAIN,android.bugly.qq.com
-DOMAIN,toblog.ctobsnssdk.com
-DOMAIN,tobapplog.ctobsnssdk.com
-DOMAIN,cfg.imtt.qq.com
-DOMAIN,statres.quickapp.cn
-DOMAIN,qr.quickapp.cn
-DOMAIN,hybrid.xiaomi.com
-DOMAIN,hybrid.miui.com
-DOMAIN,s1.irs03.com
-DOMAIN,up.cm.ksmobile.com
-DOMAIN,dl.cm.ksmobile.com
-DOMAIN,dw-online.ksosoft.com
-DOMAIN,zzhc.vnet.cn
-DOMAIN,beacon-api.aliyuncs.com
-DOMAIN,mpush-api.aliyun.com
-DOMAIN,ug.snssdk.com
-DOMAIN,t7z.cupid.iqiyi.com
-DOMAIN,worldwide.sogou.com
-DOMAIN,www.pangolin-dsp-toutiao.com
-DOMAIN,master.wap.dphub.sandai.net
-DOMAIN,hub5u.wap.sandai.net
-DOMAIN,idx.m.hub.sandai.net
-DOMAIN,tw13b093.sandai.net
-DOMAIN,adinfo.ra1.xlmc.sec.miui.com
-DOMAIN,test.ad.xiaomi.com
-DOMAIN,uploadlog.xlmc.sandai.net
-DOMAIN,t03-api.xlmc.xunlei.com
-DOMAIN,pre.api.tw06.xlmc.sandai.net
-DOMAIN,guid-xldw-ssl.n0808.com
+DOMAIN-SUFFIX,tmfsdk.m.qq.com
+DOMAIN-SUFFIX,tmfsdk4.m.qq.com
+DOMAIN-SUFFIX,tbm.snssdk.com
+DOMAIN-SUFFIX,othstr.beacon.qq.com
+DOMAIN-SUFFIX,tools.3g.qq.com
+DOMAIN-SUFFIX,tmfsdktcp.m.qq.com
+DOMAIN-SUFFIX,h.trace.qq.com
+DOMAIN-SUFFIX,hub5pn.wap.sandai.net
+DOMAIN-SUFFIX,tpstelemetry.tencent.com
+DOMAIN-SUFFIX,pssn.alicdn.com
+DOMAIN-SUFFIX,tmfsdktcpv4.m.qq.com
+DOMAIN-SUFFIX,tmeadcomm.y.qq.com
+DOMAIN-SUFFIX,tangram.e.qq.com
+DOMAIN-SUFFIX,us.l.qq.com
+DOMAIN-SUFFIX,tdid.m.qq.com
+DOMAIN-SUFFIX,api.yky.qq.com
+DOMAIN-SUFFIX,sdk.e.qq.com
+DOMAIN-SUFFIX,android.bugly.qq.com
+DOMAIN-SUFFIX,toblog.ctobsnssdk.com
+DOMAIN-SUFFIX,tobapplog.ctobsnssdk.com
+DOMAIN-SUFFIX,cfg.imtt.qq.com
+DOMAIN-SUFFIX,statres.quickapp.cn
+DOMAIN-SUFFIX,qr.quickapp.cn
+DOMAIN-SUFFIX,hybrid.xiaomi.com
+DOMAIN-SUFFIX,hybrid.miui.com
+DOMAIN-SUFFIX,s1.irs03.com
+DOMAIN-SUFFIX,up.cm.ksmobile.com
+DOMAIN-SUFFIX,dl.cm.ksmobile.com
+DOMAIN-SUFFIX,dw-online.ksosoft.com
+DOMAIN-SUFFIX,zzhc.vnet.cn
+DOMAIN-SUFFIX,beacon-api.aliyuncs.com
+DOMAIN-SUFFIX,mpush-api.aliyun.com
+DOMAIN-SUFFIX,ug.snssdk.com
+DOMAIN-SUFFIX,t7z.cupid.iqiyi.com
+DOMAIN-SUFFIX,worldwide.sogou.com
+DOMAIN-SUFFIX,www.pangolin-dsp-toutiao.com
+DOMAIN-SUFFIX,master.wap.dphub.sandai.net
+DOMAIN-SUFFIX,hub5u.wap.sandai.net
+DOMAIN-SUFFIX,idx.m.hub.sandai.net
+DOMAIN-SUFFIX,tw13b093.sandai.net
+DOMAIN-SUFFIX,adinfo.ra1.xlmc.sec.miui.com
+DOMAIN-SUFFIX,test.ad.xiaomi.com
+DOMAIN-SUFFIX,uploadlog.xlmc.sandai.net
+DOMAIN-SUFFIX,t03-api.xlmc.xunlei.com
+DOMAIN-SUFFIX,pre.api.tw06.xlmc.sandai.net
+DOMAIN-SUFFIX,guid-xldw-ssl.n0808.com
 
 # unknown
-DOMAIN,data.sec.miui.com
+DOMAIN-SUFFIX,data.sec.miui.com
 
 # 小米音乐广告
-DOMAIN,pgdt.gtimg.cn
-DOMAIN,*.rdt.tfogc.com
+DOMAIN-SUFFIX,pgdt.gtimg.cn
+DOMAIN-SUFFIX,*.rdt.tfogc.com
