@@ -1,0 +1,8 @@
+
+  - "DOMAIN-SUFFIX,maoxiongnet.com,DIRECT"
+  - "DOMAIN-SUFFIX,freelancer.in,REJECT"
+  - "PROCESS-NAME,gopeed.exe,DIRECT"
+  - "DOMAIN-SUFFIX,tutu555.net,DIRECT"
+  - "DOMAIN-SUFFIX,tutu234.cc,DIRECT"
+  - "DOMAIN-SUFFIX,ku138.cc,DIRECT"
+  - "DOMAIN-SUFFIX,cloudaria.net,DIRECT"
