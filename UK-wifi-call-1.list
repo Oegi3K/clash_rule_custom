@@ -1,4 +1,6 @@
 # Giffgaff
 IP-CIDR,87.194.0.0/19
 IP-CIDR,87.194.88.0/23
+DOMAIN-SUFFIX,giffgaff.com
+DOMAIN-SUFFIX,gmcc234.pub.3gppnetwork.org
 DOMAIN-SUFFIX,epdg.epc.mnc010.mcc234.pub.3gppnetwork.org
